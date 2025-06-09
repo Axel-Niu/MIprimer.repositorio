@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online</title>
+    <link rel="icon" href="img/icon.tienda.jpg.png" type="image/png">
+    <!--uso de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--uso de switalert2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script,compra.js"></script>
+    <!--uso de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <header class="head">
+        <p class="con">TIENDA DE ARTICULOS Y PRODUCTOS</p>
+        <nav>
+            <ul>
+              <li class="otros-li">
+                <a href="form.html" class="current">
+                  Inicia secion
+                </a>
+              </li>
+              <li class="otros-li">
+                <a href="#habilidades">
+                  Habilidades
+                </a>
+              </li>
+              <li class="otros-li">
+                <a href="#portafolio">
+                  Portafolio
+                </a>
+              </li>
+              <li class="otros-li">
+                <a href="#servicios">
+                  Servicios
+                </a>
+              </li>
+              <li class="otros-li">
+                <a href="#contactos">
+                  Contactos
+                </a>
+              </li>
+            </ul>
+            
+            
+        </nav>
+     
+         
+    </header>
+    <br>
+    <!--uso de canvas-->
+    <canvas id="myCanvas" width="1230" height="100" style="border:1px solid #f7f4f4;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeStyle = "blue";
+        ctx.strokeText("PRODUCTOS Y MAS PRODUCTOS PARA EL HOGAR ",400,50);
+    </script>
+    
+
+    <section class="content">
+        <p class="tittle">BIENVENIDO A LA TIENDA</p>
+        <p class="subtitle">Encuentra lo que buscabas</p>
+        <div class="search">
+        <form action="/buscar" method="get">
+            <input type="search" class="search-bar" placeholder="Quiero comprar" name="q">
+            <button type="submit" class="search-button">clik aqui para buscar</button>
+         </form>
+        </div>
+    </section>
+    <!---carrusel de imagenes-->
+    <div class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active"><img src="img/slide1.jpg.img" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="img/slide2.img" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="img/imagen34.jpg" class="d-block w-100"></div>
+    </div>
+    </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--fin del carrusel-->
+    <article class="article">
+        <main class="main-content">
+        <h1>Nuestros Productos</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="img/2.img.jpg">
+                <h3>carro electrico de jugete</h3>
+                <p class="price">$91.99</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="img/img.jpg">
+                <h3>Guitarra electrica</h3>
+                <p class="price">$99.99</p>
+                <button class="buy-button">Comprar</button>
+                
+            </div>
+            <div class="product-card">
+                <img src="img/3.img.jpg">
+                <h3>Barco pirata</h3>
+                <p class="price">$20.99</p>
+                <button class="buy-button" >Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="img/slide4.img">
+                <h3>Pantalla plana de 600 pulgadas</h3>
+                <p class="price">$200.99</p>
+                <button class="buy-button" >Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="img/slide3.img">
+                <h3>Silla Gamer</h3>
+                <p class="price">$50.99</p>
+                <button class="buy-button" >Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="img/imagen34.jpg">
+                <h3>Pantalla plana led</h3>
+                <p class="price">$100.99</p>
+                <button class="buy-button" >Comprar</button>
+            </div>
+
+         </div>
+        </main>
+        
+       
+            
+       
+    </article>
+
+    <article>
+        <div class="contact">
+            <ol>
+            <p>CONTACTANOS</p> 
+                <p>
+                    <i class="fas fa-envelope"></i> Correo electrónico: orihuelafernandezsebastiancami@gmail.com
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i> Teléfono: 555-1234
+                </p>
+                <p>
+                    <i class="fa-regular fa-compass"></i> Direccion: Av. Chacaltalla #502
+                </p>
+            </ol>
+            <p>
+                <i class="fa-brands fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-facebook-messenger fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-instagram fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-tiktok fa-2x "></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+        </div>
+    </article>
+
+
+
+    <footer>
+        <div class="footer">
+        <p>&copy; 2025 Tienda de articulos y productos - Todos los derechos reservados </p>
+        </div>
+    </footer>
+</body>
+</html>
